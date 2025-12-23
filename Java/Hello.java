@@ -39,8 +39,8 @@ public class Hello {
     // double Subject4 = 94;
     // short Subject5 = 91;
     // System.out.println(
-    //         "Marks of different subjects:" + "\n" + Subject1 + "\n" + Subject2 + "\n"+ Subject3 + "\n"+ Subject4 + "\n"+ Subject5);
-    // Git Level 2: learning how to see changes
+    //"Marks of different subjects:" + "\n" + Subject1 + "\n" + Subject2 + "\n"+ Subject3 + "\n"+ Subject4 + "\n"+ Subject5);
+    // Git Level 2: learning how to see changes completed
 
  
 
