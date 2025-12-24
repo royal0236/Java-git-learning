@@ -117,11 +117,38 @@ public class Hello {
 //    double d = (Obatined * Total) / 100;
 //    System.out.println("Percentage of the marks:" + d);
 //Take total bill amount as double and convert it to int (for cash payment) and show difference lost.
-System.out.print("Total Bill:");
-double Bill = sc.nextDouble();
-int i = (int) Bill;
- System.out.println("The Total Final Bill" + i + "\n" + "The lost amount:" + (Bill - i));
-   
+// System.out.print("Total Bill:");
+// double Bill = sc.nextDouble();
+// int i = (int) Bill;
+//  System.out.println("The Total Final Bill" + i + "\n" + "The lost amount:" + (Bill - i));
+// Take two numbers from user and print: sum difference product
+// System.out.print("Enter the first number:");
+// int i = sc.nextInt();
+// System.out.print("Enter the second number:");
+// int j = sc.nextInt();
+// System.out.println("Sum of two numbers is:" + (i + j) + "\n" + "Difference of two numbers is:"
+//       + (i - j) + "\n" + "Product of two numbers is:" + (i * j));
+// Take two numbers and print quotient and remainder.
+// System.out.print("Enter the first number:");
+// int i = sc.nextInt();
+// System.out.print("Enter the second number:");
+// int j = sc.nextInt();
+// System.out.println("Quotient of the two numbers is:" + i / j + "\n"
+//         + "Remainder for the to numbers is:" + i % j);
+//  Convert minutes into hours and remaining minutes.
+// System.out.print("Enter the minuntes:");
+// int i = sc.nextInt();
+// System.out.print("Minutes entered is:" + i + " Converted into hours and remaining minuntes:" + i / 60 +" hrs and"
+//         + "\n" + i % 60 + " min");
+//  Take a 3-digit number and print the sum of its digits (Hint: use / and %)
+System.out.print("Enter a three digit number:");
+int i = sc.nextInt();
+int d3 = i % 10;
+i = i / 10;
+int d2 = i % 10;
+int d1 = i / 10;
+System.out.println(d3 + d2 + d1);
+
 
 
 
