@@ -1,5 +1,7 @@
+import java.util.Scanner;
 public class Hello {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         System.out.println("Hello World!!");
         // System.out.println("DAVANAM VENKATA SOWMYANADH ROYAL");
         // System.out.println("Hemanth");
@@ -40,7 +42,101 @@ public class Hello {
     // short Subject5 = 91;
     // System.out.println(
     //"Marks of different subjects:" + "\n" + Subject1 + "\n" + Subject2 + "\n"+ Subject3 + "\n"+ Subject4 + "\n"+ Subject5);
-    // Git Level 2: learning how to see changes completed
+    //Create a small program that stores:name (String) age (int) percentage (float) passed (boolean) and prints them in proper format.
+    // String name = "ROYAL";
+    // int age = 20;
+    // float percentage = 80f;
+    // boolean passed = true;
+    // System.out.println(
+    //         "My name is:" + name + "\n" + "My age is:" + age + "\n" + "My dipoloma percentage is:"
+    //                 + percentage + "\n" + "I have completed dipoloma");
+    // Take an integer from user and print it.
+    // System.out.print("Enter a number:");
+    // int i = sc.nextInt();
+    // System.out.println("Your Entered Number is:" + i);
+    // Take two numbers from user and print their sum.
+    // System.out.print("Enter the first number:");
+    // int i = sc.nextInt();
+    // System.out.print("Enter the second number:");
+    // int j = sc.nextInt();
+    // System.out.println("Sum of the two numbers is:" + (i + j));
+    // Take name and age from user and print:
+    // System.out.print("Enter your name:");
+    // String name = sc.nextLine();
+    // // String name = sc.next();
+    // System.out.print("Enter your age:");
+    // int age = sc.nextInt();
+    // System.out.println("Hello " + name + "," + " you are " + age + " years old.");
+    // // Take length and breadth from user and calculate area of rectangle.
+    // System.out.print("Enter the length:");
+    // int length = sc.nextInt();
+    // System.out.print("Enter the breadth:");
+    // int breadth = sc.nextInt();
+    // System.out.println("The area of the recatngle is:" + (length*breadth));
+    // Take marks of 5 subjects from user and calculate: Total and Average
+    // System.out.print("Subject1 Marks:");
+    // int i = sc.nextInt();
+    // System.out.print("Subject2 Marks:");
+    // int j = sc.nextInt();
+    // System.out.print("Subject3 Marks:");
+    // int k = sc.nextInt();
+    // System.out.print("Subject4 Marks:");
+    // int l = sc.nextInt();
+    // System.out.print("Subject5 Marks:"); 
+    // int m = sc.nextInt();
+    // System.out.println("Toatl Marks:" + (i + j + k + l + m) + "/500" + "\n"
+    //         + "Average of total marks:" + (i + j + k + l + m) / 5);
+    //    Convert an int value to double and print both.
+    // int i = sc.nextInt();   
+    // double j = i;
+    // System.out.println(j);
+    // Convert a char to its ASCII value.
+    // char cha1 = 'a';
+    // int asci1 = cha1;
+    // System.out.println(asci1);
+    // char cha2 = '0';
+    // int asci2 = cha2;
+    // System.out.println(asci2);
+    // char cha3 = '@';
+    // int asci3 = cha3;
+    // System.out.println(asci3);
+    // System.out.print("Enter a char:");
+    // char ch = sc.next().charAt(0);
+    // int ascii = ch;
+    // System.out.println("Char converted into asci:" + ascii);
+   // Take a double number from user and convert it to int.
+//    System.out.print("Enter a number:");
+//    double d = sc.nextDouble();
+//    int i = (int) d;
+//    System.out.println("Double converted to int:" + i);
+   //Take marks as int, calculate percentage as double.
+//    System.out.print("Enter the marks obtained:");
+//    int Obatined = sc.nextInt();
+//    System.out.print("Total Marks:");
+//    int Total = sc.nextInt();
+//    double d = (Obatined * Total) / 100;
+//    System.out.println("Percentage of the marks:" + d);
+//Take total bill amount as double and convert it to int (for cash payment) and show difference lost.
+System.out.print("Total Bill:");
+double Bill = sc.nextDouble();
+int i = (int) Bill;
+ System.out.println("The Total Final Bill" + i + "\n" + "The lost amount:" + (Bill - i));
+   
+
+
+
+    
+    
+    
+    
+
+
+
+        
+
+
+
+
 
  
 
